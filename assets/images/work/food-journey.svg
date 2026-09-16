@@ -1,0 +1,51 @@
+<svg viewBox="0 0 765 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract farm to shelf journey path">
+  <defs>
+    <pattern id="grid-fj" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#1B1C25" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="765" height="440" fill="#0B0C10"/>
+  <rect width="765" height="440" fill="url(#grid-fj)"/>
+
+  <!-- journey path -->
+  <path d="M 90 300 C 180 220, 250 340, 330 260 S 470 180, 550 250 S 660 300, 690 220"
+        fill="none" stroke="#4B3FD1" stroke-width="2" stroke-dasharray="3 9" stroke-linecap="round"/>
+
+  <!-- stage 1: harvest (sprout) -->
+  <g transform="translate(90,300)">
+    <circle r="26" fill="#14151C" stroke="#2A2C38" stroke-width="1.5"/>
+    <path d="M 0 8 C 0 -6 -10 -12 -14 -18 M 0 8 C 0 -6 10 -12 14 -18 M 0 8 V -2" fill="none" stroke="#8A7DFA" stroke-width="2" stroke-linecap="round"/>
+    <text x="0" y="46" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="12" fill="#8B8D9C">HARVEST</text>
+  </g>
+
+  <!-- stage 2: preparation -->
+  <g transform="translate(330,260)">
+    <circle r="26" fill="#14151C" stroke="#2A2C38" stroke-width="1.5"/>
+    <rect x="-11" y="-11" width="22" height="22" rx="4" fill="none" stroke="#8A7DFA" stroke-width="2"/>
+    <text x="0" y="46" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="12" fill="#8B8D9C">PREPARATION</text>
+  </g>
+
+  <!-- stage 3: production -->
+  <g transform="translate(550,250)">
+    <circle r="26" fill="#14151C" stroke="#2A2C38" stroke-width="1.5"/>
+    <path d="M -12 10 L -12 -6 L -4 -6 L -4 -12 L 4 -12 L 4 -6 L 12 -6 L 12 10 Z" fill="none" stroke="#8A7DFA" stroke-width="2" stroke-linejoin="round"/>
+    <text x="0" y="46" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="12" fill="#8B8D9C">PRODUCTION</text>
+  </g>
+
+  <!-- stage 4: transport -->
+  <g transform="translate(645,270)">
+    <circle r="22" fill="#14151C" stroke="#2A2C38" stroke-width="1.5"/>
+    <path d="M -11 4 H 9 V -4 H 2 L -3 -9 H -11 Z" fill="none" stroke="#8A7DFA" stroke-width="1.6"/>
+    <circle cx="-6" cy="7" r="2.4" fill="#8A7DFA"/>
+    <circle cx="5" cy="7" r="2.4" fill="#8A7DFA"/>
+  </g>
+
+  <!-- stage 5: shelf -->
+  <g transform="translate(690,220)">
+    <circle r="26" fill="#14151C" stroke="#6861F5" stroke-width="1.8"/>
+    <path d="M -12 6 H 12 M -12 6 V -8 H 12 V 6 M -6 -8 V -12 H 6 V -8" fill="none" stroke="#8A7DFA" stroke-width="2" stroke-linejoin="round"/>
+    <text x="0" y="46" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="12" fill="#C9C9D6">SHELF</text>
+  </g>
+
+  <text x="60" y="70" font-family="Space Grotesk, sans-serif" font-size="15" letter-spacing="3" fill="#6B6D7C">FOOD JOURNEY — INTERACTIVE 3D CONCEPT</text>
+</svg>

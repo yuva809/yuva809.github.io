@@ -1,0 +1,30 @@
+<svg viewBox="0 0 765 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Durby abstract mark on a dark grid">
+  <defs>
+    <pattern id="grid-durby" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#1B1C25" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="durby-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8A7DFA"/>
+      <stop offset="100%" stop-color="#4B3FD1"/>
+    </linearGradient>
+  </defs>
+  <rect width="765" height="440" fill="#0B0C10"/>
+  <rect width="765" height="440" fill="url(#grid-durby)"/>
+  <g transform="translate(382.5,220)">
+    <circle cx="0" cy="0" r="118" fill="none" stroke="#2A2C38" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="86" fill="none" stroke="#2A2C38" stroke-width="1"/>
+    <path d="M -46,-78 A 96 96 0 1 1 -46,78" fill="none" stroke="url(#durby-accent)" stroke-width="14" stroke-linecap="round"/>
+    <rect x="-14" y="-78" width="28" height="156" rx="14" fill="#0B0C10" stroke="#F5F5F7" stroke-width="2"/>
+    <circle cx="118" cy="0" r="5" fill="#8A7DFA"/>
+    <circle cx="-118" cy="0" r="5" fill="#4B3FD1"/>
+    <circle cx="0" cy="-118" r="4" fill="#F5F5F7" opacity="0.6"/>
+    <circle cx="0" cy="118" r="4" fill="#F5F5F7" opacity="0.6"/>
+  </g>
+  <g fill="none" stroke="#2A2C38" stroke-width="1">
+    <rect x="60" y="60" width="14" height="14" rx="3"/>
+    <rect x="690" y="60" width="14" height="14" rx="3"/>
+    <rect x="60" y="366" width="14" height="14" rx="3"/>
+    <rect x="690" y="366" width="14" height="14" rx="3"/>
+  </g>
+  <text x="60" y="395" font-family="Space Grotesk, sans-serif" font-size="15" letter-spacing="3" fill="#6B6D7C">DURBY</text>
+</svg>

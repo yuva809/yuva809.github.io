@@ -1,0 +1,157 @@
+/*
+  Custom overrides for Yuvanesh Raju's personal portfolio.
+  Layered on top of main.css (template system) — kept separate so the
+  vendor stylesheet stays intact and every personal-site change is
+  auditable in one place.
+*/
+
+/* ---------- Utility helpers ---------- */
+.tw-tracking-wide {
+  letter-spacing: 0.08em;
+}
+
+.tw-tracking-wider {
+  letter-spacing: 0.18em;
+}
+
+/* ---------- Text wordmark (replaces template logo images) ---------- */
+.text-logo {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1;
+  font-family: var(--heading-font);
+  color: hsl(var(--heading-color));
+}
+.text-logo .text-logo-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.text-logo .text-logo-role {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--main-two-600);
+  margin-top: 2px;
+}
+.text-logo.is-light {
+  color: hsl(var(--white));
+}
+.text-logo.is-light .text-logo-role {
+  color: #b9b3ff;
+}
+
+/* ---------- Accessible focus states ---------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--main-two-600);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ---------- Hero: readable supporting copy ---------- */
+/* The template's outlined/hollow title treatment works for a 2-3 word
+   display headline, not a full sentence — swap it for solid, legible text. */
+.banner-three-center-title {
+  -webkit-text-stroke-width: 0;
+  color: hsl(var(--heading-color));
+  font-weight: 500;
+}
+
+/* ---------- Hero: "currently building" cards (replaces fabricated stats) ---------- */
+.banner-three-focus-item {
+  display: block;
+}
+.banner-three-focus-item .banner-three-focus-label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.65;
+  margin-bottom: 6px;
+}
+.banner-three-focus-item .banner-three-focus-title {
+  display: block;
+  font-family: var(--heading-font);
+}
+
+/* ---------- Approach section (repurposed hover-reveal rows) ---------- */
+.feature-three-area .hover__reveal-bg {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f5f5f7;
+  font-family: var(--heading-font);
+  font-size: 1rem;
+  text-align: center;
+  padding: 16px;
+}
+
+/* ---------- Technology section ---------- */
+.tech-group-label {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: hsl(var(--body-color));
+  opacity: 0.6;
+  margin-bottom: 14px;
+}
+.tech-tag-list ul li a {
+  border: 1px solid rgba(2, 9, 15, 0.12);
+}
+
+/* ---------- Work section project meta ---------- */
+.portfolio-three-category {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--main-two-600);
+  margin-bottom: 10px;
+}
+.portfolio-three-desc {
+  max-width: 46ch;
+}
+
+/* ---------- Disable magic cursor + magnetic hover on touch devices ---------- */
+@media (hover: none), (pointer: coarse) {
+  #magic-cursor,
+  #ball {
+    display: none !important;
+  }
+  body.tw-magic-cursor,
+  body.tw-magic-cursor a,
+  body.tw-magic-cursor button {
+    cursor: auto !important;
+  }
+}
+
+/* ---------- Respect reduced-motion preference ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .tw-clip-anim .mask {
+    display: none;
+  }
+  .tw-clip-anim .tw-anim-img {
+    opacity: 1 !important;
+  }
+}
+
+/* ---------- Small responsive polish ---------- */
+@media screen and (max-width: 575px) {
+  .banner-three-title {
+    word-break: break-word;
+  }
+}
