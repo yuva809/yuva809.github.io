@@ -5,6 +5,18 @@
   auditable in one place.
 */
 
+/* ---------- Hero: giant background title ---------- */
+/* main.css sizes .banner-three-title (up to 397px) for a single short
+   word. Ours is a longer phrase, so it needs its own fluid, much
+   smaller scale to avoid overflowing the viewport. Two classes beat
+   main.css's single-class breakpoint rules on specificity, so this
+   one rule covers every screen size without repeating media queries. */
+.banner-three-title.banner-three-title--phrase {
+  font-size: clamp(2rem, 7vw, 6.5rem);
+  line-height: 1.1;
+  white-space: normal;
+}
+
 /* ---------- Utility helpers ---------- */
 .tw-tracking-wide {
   letter-spacing: 0.08em;
