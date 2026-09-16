@@ -12,7 +12,7 @@
 const siteContent = {
   name: "Yuvanesh Raju",
   roleShort: "Dev · AI · Product",
-  roleFull: "Founder · AI/Data Engineer · Automation",
+  roleFull: "Founder · AI & Data Engineer · Automation",
   email: "yuvanesh.raju5@gmail.com",
   social: {
     // Replace "#" with your real profile URL when ready.
