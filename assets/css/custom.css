@@ -12,9 +12,10 @@
    main.css's single-class breakpoint rules on specificity, so this
    one rule covers every screen size without repeating media queries. */
 .banner-three-title.banner-three-title--phrase {
-  font-size: clamp(2rem, 7vw, 6.5rem);
-  line-height: 1.1;
+  font-size: clamp(2.75rem, 12vw, 13rem);
+  line-height: 0.95;
   white-space: normal;
+  text-transform: uppercase;
 }
 
 /* ---------- Utility helpers ---------- */
