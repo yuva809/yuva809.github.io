@@ -1,0 +1,55 @@
+<svg viewBox="0 0 765 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract diagram of an e-commerce KPI dashboard with AI-generated insights">
+  <defs>
+    <pattern id="grid-sm" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#1B1C25" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="sm-accent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4B3FD1"/>
+      <stop offset="100%" stop-color="#8A7DFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="765" height="440" fill="#0B0C10"/>
+  <rect width="765" height="440" fill="url(#grid-sm)"/>
+
+  <!-- KPI cards row -->
+  <g font-family="Space Grotesk, sans-serif">
+    <g transform="translate(60,60)">
+      <rect width="150" height="86" rx="10" fill="#14151C" stroke="#2A2C38" stroke-width="1.5"/>
+      <text x="16" y="30" font-size="11" fill="#6B6D7C">REVENUE</text>
+      <text x="16" y="62" font-size="22" fill="#F5F5F7">$48.2k</text>
+    </g>
+    <g transform="translate(226,60)">
+      <rect width="150" height="86" rx="10" fill="#14151C" stroke="#2A2C38" stroke-width="1.5"/>
+      <text x="16" y="30" font-size="11" fill="#6B6D7C">ORDERS</text>
+      <text x="16" y="62" font-size="22" fill="#F5F5F7">1,204</text>
+    </g>
+    <g transform="translate(392,60)">
+      <rect width="150" height="86" rx="10" fill="#171826" stroke="#6861F5" stroke-width="1.8"/>
+      <text x="16" y="30" font-size="11" fill="#B9B3FF">AI INSIGHT</text>
+      <text x="16" y="52" font-size="12" fill="#F5F5F7">Margin dip in</text>
+      <text x="16" y="68" font-size="12" fill="#F5F5F7">Category B</text>
+    </g>
+    <g transform="translate(558,60)">
+      <rect width="150" height="86" rx="10" fill="#14151C" stroke="#2A2C38" stroke-width="1.5"/>
+      <text x="16" y="30" font-size="11" fill="#6B6D7C">GROWTH</text>
+      <text x="16" y="62" font-size="22" fill="#8A7DFA">+12.4%</text>
+    </g>
+  </g>
+
+  <!-- chart panel -->
+  <g transform="translate(60,180)">
+    <rect width="648" height="200" rx="10" fill="#14151C" stroke="#2A2C38" stroke-width="1.5"/>
+    <polyline points="24,150 110,120 196,140 282,90 368,110 454,60 540,80 624,40"
+      fill="none" stroke="url(#sm-accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#8A7DFA">
+      <circle cx="24" cy="150" r="4"/>
+      <circle cx="196" cy="140" r="4"/>
+      <circle cx="368" cy="110" r="4"/>
+      <circle cx="540" cy="80" r="4"/>
+      <circle cx="624" cy="40" r="4"/>
+    </g>
+    <line x1="24" y1="176" x2="624" y2="176" stroke="#2A2C38" stroke-width="1"/>
+  </g>
+
+  <text x="60" y="40" font-family="Space Grotesk, sans-serif" font-size="15" letter-spacing="3" fill="#6B6D7C">AI STORE MANAGER — E-COMMERCE</text>
+</svg>

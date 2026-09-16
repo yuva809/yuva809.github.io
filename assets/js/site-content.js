@@ -16,7 +16,7 @@ const siteContent = {
   email: "yuvanesh.raju5@gmail.com",
   social: {
     // Replace "#" with your real profile URL when ready.
-    github: "#",
+    github: "https://github.com/yuva809",
     linkedin: "https://www.linkedin.com/in/yuvaneshraju/",
     x: "#",
   },
