@@ -86,8 +86,8 @@
           >
             <div class="twoffcanvas__logo">
               <a class="logo-1 text-logo is-light" href="#home">
-                <span class="text-logo-name">Yuvanesh Raju</span>
-                <span class="text-logo-role">Dev · AI · Product</span>
+                <span class="text-logo-name" data-content="name">Yuvanesh Raju</span>
+                <span class="text-logo-role" data-content="role-short">Dev · AI · Product</span>
               </a>
             </div>
             <div class="tw-offcanvas-2-close d-md-none text-end">
@@ -176,7 +176,7 @@
                   <span class="text-main-two-600 tw-text-xl"
                     ><i class="ph ph-envelope" aria-hidden="true"></i
                   ></span>
-                  <a class="text-white" href="mailto:yuvanesh.raju5@gmail.com"
+                  <a class="text-white" data-content="email" href="mailto:yuvanesh.raju5@gmail.com"
                     >yuvanesh.raju5@gmail.com</a
                   >
                 </li>
@@ -190,7 +190,7 @@
             >
               <ul class="tw-gap-2">
                 <li>
-                  <a href="#" aria-label="GitHub (add your profile link)">
+                  <a data-social="github" href="#" aria-label="GitHub (add your profile link)">
                     <span
                       class="active-media d-flex align-items-center tw-gap-1"
                       >GitHub <i class="ph ph-arrow-bend-up-right" aria-hidden="true"></i
@@ -201,7 +201,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/yuvaneshraju/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                  <a data-social="linkedin" href="https://www.linkedin.com/in/yuvaneshraju/" target="_blank" rel="noopener" aria-label="LinkedIn">
                     <span
                       class="active-media d-flex align-items-center tw-gap-1"
                       >LinkedIn <i class="ph ph-arrow-bend-up-right" aria-hidden="true"></i
@@ -212,7 +212,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="X / Twitter (add your profile link)">
+                  <a data-social="x" href="#" aria-label="X / Twitter (add your profile link)">
                     <span
                       class="active-media d-flex align-items-center tw-gap-1"
                       >X <i class="ph ph-arrow-bend-up-right" aria-hidden="true"></i
@@ -256,8 +256,8 @@
           <!-- Logo Start -->
           <div class="header-three-logo tw-rounded-md">
             <a href="#home" class="link smooth text-logo">
-              <span class="text-logo-name">Yuvanesh Raju</span>
-              <span class="text-logo-role">Dev · AI · Product</span>
+              <span class="text-logo-name" data-content="name">Yuvanesh Raju</span>
+              <span class="text-logo-role" data-content="role-short">Dev · AI · Product</span>
             </a>
           </div>
           <!-- Logo End  -->
@@ -268,6 +268,7 @@
               <li>
                 <a
                   class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                  data-social="github"
                   href="#"
                   aria-label="GitHub (add your profile link)"
                   ><i class="ph-bold ph-github-logo" aria-hidden="true"></i
@@ -276,6 +277,7 @@
               <li>
                 <a
                   class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                  data-social="linkedin"
                   href="https://www.linkedin.com/in/yuvaneshraju/"
                   target="_blank"
                   rel="noopener"
@@ -286,6 +288,7 @@
               <li>
                 <a
                   class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
+                  data-social="x"
                   href="#"
                   aria-label="X / Twitter (add your profile link)"
                   ><i class="ph-bold ph-x-logo" aria-hidden="true"></i
@@ -355,6 +358,7 @@
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
+                      <!-- EDIT: hero intro line -->
                       <h1 class="banner-three-left-title tw-text-3xl tw-mb-6">
                         Hi, I'm Yuvanesh Raju — a software developer, AI
                         builder and product engineer.
@@ -425,6 +429,7 @@
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
+                      <!-- EDIT: hero supporting line -->
                       <p class="banner-three-center-title tw-text-120">
                         I build intelligent software, AI-powered systems, and
                         digital products that turn complex ideas into useful
@@ -535,6 +540,7 @@
                     data-aos-duration="1000"
                     data-aos-delay="300"
                   >
+                    <!-- EDIT: About bio (3 paragraphs) + education line below -->
                     <div>
                       <p class="tw-text-xl tw-mb-10">
                         I'm Yuvanesh, a software developer, AI engineer and
@@ -669,11 +675,12 @@
                             <h3
                               class="service-three-title tw-text-15 text-white tw-mb-4"
                             >
-                              AI &amp; Intelligent Systems
+                              AI &amp; Automation
                             </h3>
                             <p class="text-white tw-text-lg tw-mb-4" style="max-width: 46ch">
-                              AI-powered workflows, document processing,
-                              automation and intelligent business systems.
+                              AI-powered workflows, agents and automation that
+                              take repetitive business processes off your
+                              plate.
                             </p>
                           </div>
                           <div class="portfolio-list portfolio-two-list">
@@ -840,56 +847,6 @@
                             <h3
                               class="service-three-title tw-text-15 text-white tw-mb-4"
                             >
-                              Automation
-                            </h3>
-                            <p class="text-white tw-text-lg tw-mb-4" style="max-width: 46ch">
-                              Reducing repetitive business processes through
-                              software and AI.
-                            </p>
-                          </div>
-                          <div class="portfolio-list portfolio-two-list">
-                            <ul class="d-flex tw-gap-205 flex-wrap">
-                              <li>
-                                <a
-                                  class="text-uppercase text-white tw-text-sm fw-medium position-relative z-1 hover-bg-main-two-600 hover-border-main-two-600 hover-text-heading tw-transition-3"
-                                  href="#expertise"
-                                  >Workflows</a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  class="text-uppercase text-white tw-text-sm fw-medium position-relative z-1 hover-bg-main-two-600 hover-border-main-two-600 hover-text-heading tw-transition-3"
-                                  href="#expertise"
-                                  >Integrations</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="service-three-single"
-                    data-aos="fade-right"
-                    data-aos-duration="2000"
-                    data-aos-delay="600"
-                  >
-                    <div
-                      class="service-three-item d-flex justify-content-between align-items-center"
-                    >
-                      <div class="service-three-content d-flex tw-gap-14">
-                        <div>
-                          <span
-                            class="service-three-number text-white tw-text-xl d-inline-flex align-items-center tw-gap-3 lh-1 tw-mt-5 tw-transition-3"
-                            >05</span
-                          >
-                        </div>
-                        <div>
-                          <div>
-                            <h3
-                              class="service-three-title tw-text-15 text-white tw-mb-4"
-                            >
                               Interactive Web Experiences
                             </h3>
                             <p class="text-white tw-text-lg tw-mb-4" style="max-width: 46ch">
@@ -927,10 +884,10 @@
                     </div>
                   </div>
                   <div
-                    class="service-three-single ms-auto"
-                    data-aos="fade-left"
+                    class="service-three-single"
+                    data-aos="fade-right"
                     data-aos-duration="2000"
-                    data-aos-delay="700"
+                    data-aos-delay="600"
                   >
                     <div
                       class="service-three-item d-flex justify-content-between align-items-center"
@@ -939,7 +896,7 @@
                         <div>
                           <span
                             class="service-three-number text-white tw-text-xl d-inline-flex align-items-center tw-gap-3 lh-1 tw-mt-5 tw-transition-3"
-                            >06</span
+                            >05</span
                           >
                         </div>
                         <div>
@@ -947,7 +904,7 @@
                             <h3
                               class="service-three-title tw-text-15 text-white tw-mb-4"
                             >
-                              Cloud &amp; Infrastructure
+                              Backend &amp; Cloud Systems
                             </h3>
                             <p class="text-white tw-text-lg tw-mb-4" style="max-width: 46ch">
                               Backend infrastructure, deployment, servers and
@@ -968,6 +925,70 @@
                                   class="text-uppercase text-white tw-text-sm fw-medium position-relative z-1 hover-bg-main-two-600 hover-border-main-two-600 hover-text-heading tw-transition-3"
                                   href="#expertise"
                                   >Docker</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  class="text-uppercase text-white tw-text-sm fw-medium position-relative z-1 hover-bg-main-two-600 hover-border-main-two-600 hover-text-heading tw-transition-3"
+                                  href="#expertise"
+                                  >PostgreSQL</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="service-three-single ms-auto"
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                    data-aos-delay="700"
+                  >
+                    <div
+                      class="service-three-item d-flex justify-content-between align-items-center"
+                    >
+                      <div class="service-three-content d-flex tw-gap-14">
+                        <div>
+                          <span
+                            class="service-three-number text-white tw-text-xl d-inline-flex align-items-center tw-gap-3 lh-1 tw-mt-5 tw-transition-3"
+                            >06</span
+                          >
+                        </div>
+                        <div>
+                          <div>
+                            <h3
+                              class="service-three-title tw-text-15 text-white tw-mb-4"
+                            >
+                              Data &amp; Intelligent Systems
+                            </h3>
+                            <p class="text-white tw-text-lg tw-mb-4" style="max-width: 46ch">
+                              Data pipelines and machine learning models that
+                              turn raw data into decisions.
+                            </p>
+                          </div>
+                          <div class="portfolio-list portfolio-two-list">
+                            <ul class="d-flex tw-gap-205 flex-wrap">
+                              <li>
+                                <a
+                                  class="text-uppercase text-white tw-text-sm fw-medium position-relative z-1 hover-bg-main-two-600 hover-border-main-two-600 hover-text-heading tw-transition-3"
+                                  href="#expertise"
+                                  >Python</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  class="text-uppercase text-white tw-text-sm fw-medium position-relative z-1 hover-bg-main-two-600 hover-border-main-two-600 hover-text-heading tw-transition-3"
+                                  href="#expertise"
+                                  >SQL</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  class="text-uppercase text-white tw-text-sm fw-medium position-relative z-1 hover-bg-main-two-600 hover-border-main-two-600 hover-text-heading tw-transition-3"
+                                  href="#expertise"
+                                  >XGBoost</a
                                 >
                               </li>
                             </ul>
@@ -995,7 +1016,7 @@
                 <div
                   class="portfolio-three-wrapper d-flex justify-content-between flex-wrap align-items-start position-relative z-1"
                 >
-                  <!-- Project 01: Durby -->
+                  <!-- EDIT: Project 01 - Durby -->
                   <div
                     class="portfolio-three-item tw-rounded-lg tw-mb-705 portfolio-wrapper"
                   >
@@ -1050,7 +1071,7 @@
                       />
                     </div>
                   </div>
-                  <!-- Project 02: Asia Might Inventory System -->
+                  <!-- EDIT: Project 02 - Asia Might Inventory System -->
                   <div
                     class="portfolio-three-item tw-rounded-lg tw-mb-705 portfolio-wrapper"
                   >
@@ -1100,7 +1121,7 @@
                       />
                     </div>
                   </div>
-                  <!-- Project 03: DataPilot AI (live) -->
+                  <!-- EDIT: Project 03 - DataPilot AI (live) -->
                   <div
                     class="portfolio-three-item tw-rounded-lg tw-mb-705 portfolio-wrapper"
                   >
@@ -1169,7 +1190,7 @@
                       /></a>
                     </div>
                   </div>
-                  <!-- Project 04: Trisearch AI (live) -->
+                  <!-- EDIT: Project 04 - Trisearch AI (live) -->
                   <div
                     class="portfolio-three-item tw-rounded-lg tw-mb-705 portfolio-wrapper"
                   >
@@ -1238,7 +1259,7 @@
                       /></a>
                     </div>
                   </div>
-                  <!-- Project 05: Food Journey -->
+                  <!-- EDIT: Project 05 - Food Journey -->
                   <div
                     class="portfolio-three-item tw-rounded-lg tw-mb-705 portfolio-wrapper"
                   >
@@ -1321,7 +1342,7 @@
               <div class="col-xl-8">
                 <div class="text-center">
                   <h2 class="text-white tw-text-15 tw-itm-title tw-itm-anim">
-                    How I work
+                    How I Build
                   </h2>
                 </div>
               </div>
@@ -1584,6 +1605,7 @@
                   >
                     <a
                       class="tw-text-2xl fw-medium text-main-600 hover-underline hover-text-white"
+                      data-content="email"
                       href="mailto:yuvanesh.raju5@gmail.com"
                       >yuvanesh.raju5@gmail.com</a
                     >
@@ -1594,6 +1616,7 @@
                       <li>
                         <a
                           class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                          data-social="github"
                           href="#"
                           aria-label="GitHub (add your profile link)"
                           ><i class="ph ph-github-logo" aria-hidden="true"></i
@@ -1602,6 +1625,7 @@
                       <li>
                         <a
                           class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                          data-social="linkedin"
                           href="https://www.linkedin.com/in/yuvaneshraju/"
                           target="_blank"
                           rel="noopener"
@@ -1612,6 +1636,7 @@
                       <li>
                         <a
                           class="tw-w-11 tw-h-101 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-heading hover-bg-main-600 hover-text-heading"
+                          data-social="x"
                           href="#"
                           aria-label="X / Twitter (add your profile link)"
                           ><i class="ph ph-x-logo" aria-hidden="true"></i
@@ -1628,7 +1653,7 @@
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                  <form action="mailto:yuvanesh.raju5@gmail.com" method="post" enctype="text/plain">
+                  <form data-content="email-form" action="mailto:yuvanesh.raju5@gmail.com" method="post" enctype="text/plain">
                     <div class="row">
                       <div class="col-xl-12">
                         <div class="position-relative tw-mb-7">
@@ -1742,11 +1767,11 @@
                       data-aos-duration="1000"
                       data-aos-delay="400"
                     >
-                      <h4 class="tw-text-2xl text-white tw-mb-2">
+                      <h4 class="tw-text-2xl text-white tw-mb-2" data-content="role-full">
                         Software Developer · AI Builder · Product Engineer
                       </h4>
                       <p class="tw-text-lg text-white">
-                        © 2026 Yuvanesh Raju. All rights reserved.
+                        © 2026 <span data-content="name">Yuvanesh Raju</span>. All rights reserved.
                       </p>
                     </div>
                   </div>
@@ -1759,7 +1784,7 @@
               <div class="row">
                 <div class="col-xl-12">
                   <div class="footer-three-bottom">
-                    <h5 class="footer-three-bottom-title text-white">
+                    <h5 class="footer-three-bottom-title text-white" data-content="name">
                       Yuvanesh Raju
                     </h5>
                   </div>
@@ -1778,6 +1803,9 @@
         <!-- ==================== Contact / Footer End ==================== -->
       </main>
     </div>
+    <!-- Site content (name, role, email, socials) — runs first so all -->
+    <!-- animation/split-text libraries below see the final text. -->
+    <script src="assets/js/site-content.js"></script>
     <!-- Jquery js -->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!-- phosphor Js -->
